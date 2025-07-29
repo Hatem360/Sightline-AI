@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B9689DAC2E390B0A0005B155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9689D952E390B090005B155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9689D9C2E390B090005B155;
+			remoteInfo = "Sightline-AI";
+		};
+		B9689DB62E390B0A0005B155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9689D952E390B090005B155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9689D9C2E390B090005B155;
+			remoteInfo = "Sightline-AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9689D9D2E390B090005B155 /* Sightline-AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sightline-AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9689DAB2E390B0A0005B155 /* Sightline-AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sightline-AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9689DB52E390B0A0005B155 /* Sightline-AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sightline-AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B9689D9F2E390B090005B155 /* Sightline-AI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sightline-AI";
+			sourceTree = "<group>";
+		};
+		B9689DAE2E390B0A0005B155 /* Sightline-AITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sightline-AITests";
+			sourceTree = "<group>";
+		};
+		B9689DB82E390B0A0005B155 /* Sightline-AIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sightline-AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9689D9A2E390B090005B155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9689DA82E390B0A0005B155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9689DB22E390B0A0005B155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9689D942E390B090005B155 = {
+			isa = PBXGroup;
+			children = (
+				B9689D9F2E390B090005B155 /* Sightline-AI */,
+				B9689DAE2E390B0A0005B155 /* Sightline-AITests */,
+				B9689DB82E390B0A0005B155 /* Sightline-AIUITests */,
+				B9689D9E2E390B090005B155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9689D9E2E390B090005B155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9689D9D2E390B090005B155 /* Sightline-AI.app */,
+				B9689DAB2E390B0A0005B155 /* Sightline-AITests.xctest */,
+				B9689DB52E390B0A0005B155 /* Sightline-AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9689D9C2E390B090005B155 /* Sightline-AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9689DBF2E390B0A0005B155 /* Build configuration list for PBXNativeTarget "Sightline-AI" */;
+			buildPhases = (
+				B9689D992E390B090005B155 /* Sources */,
+				B9689D9A2E390B090005B155 /* Frameworks */,
+				B9689D9B2E390B090005B155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B9689D9F2E390B090005B155 /* Sightline-AI */,
+			);
+			name = "Sightline-AI";
+			packageProductDependencies = (
+			);
+			productName = "Sightline-AI";
+			productReference = B9689D9D2E390B090005B155 /* Sightline-AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9689DAA2E390B0A0005B155 /* Sightline-AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9689DC22E390B0A0005B155 /* Build configuration list for PBXNativeTarget "Sightline-AITests" */;
+			buildPhases = (
+				B9689DA72E390B0A0005B155 /* Sources */,
+				B9689DA82E390B0A0005B155 /* Frameworks */,
+				B9689DA92E390B0A0005B155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9689DAD2E390B0A0005B155 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B9689DAE2E390B0A0005B155 /* Sightline-AITests */,
+			);
+			name = "Sightline-AITests";
+			packageProductDependencies = (
+			);
+			productName = "Sightline-AITests";
+			productReference = B9689DAB2E390B0A0005B155 /* Sightline-AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9689DB42E390B0A0005B155 /* Sightline-AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9689DC52E390B0A0005B155 /* Build configuration list for PBXNativeTarget "Sightline-AIUITests" */;
+			buildPhases = (
+				B9689DB12E390B0A0005B155 /* Sources */,
+				B9689DB22E390B0A0005B155 /* Frameworks */,
+				B9689DB32E390B0A0005B155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9689DB72E390B0A0005B155 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B9689DB82E390B0A0005B155 /* Sightline-AIUITests */,
+			);
+			name = "Sightline-AIUITests";
+			packageProductDependencies = (
+			);
+			productName = "Sightline-AIUITests";
+			productReference = B9689DB52E390B0A0005B155 /* Sightline-AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9689D952E390B090005B155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B9689D9C2E390B090005B155 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B9689DAA2E390B0A0005B155 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B9689D9C2E390B090005B155;
+					};
+					B9689DB42E390B0A0005B155 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B9689D9C2E390B090005B155;
+					};
+				};
+			};
+			buildConfigurationList = B9689D982E390B090005B155 /* Build configuration list for PBXProject "Sightline-AI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9689D942E390B090005B155;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9689D9E2E390B090005B155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9689D9C2E390B090005B155 /* Sightline-AI */,
+				B9689DAA2E390B0A0005B155 /* Sightline-AITests */,
+				B9689DB42E390B0A0005B155 /* Sightline-AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9689D9B2E390B090005B155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9689DA92E390B0A0005B155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9689DB32E390B0A0005B155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9689D992E390B090005B155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9689DA72E390B0A0005B155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9689DB12E390B0A0005B155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9689DAD2E390B0A0005B155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9689D9C2E390B090005B155 /* Sightline-AI */;
+			targetProxy = B9689DAC2E390B0A0005B155 /* PBXContainerItemProxy */;
+		};
+		B9689DB72E390B0A0005B155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9689D9C2E390B090005B155 /* Sightline-AI */;
+			targetProxy = B9689DB62E390B0A0005B155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9689DBD2E390B0A0005B155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9689DBE2E390B0A0005B155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B9689DC02E390B0A0005B155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sightline-AI/Sightline_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HatemKaroui.Sightline-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9689DC12E390B0A0005B155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sightline-AI/Sightline_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HatemKaroui.Sightline-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B9689DC32E390B0A0005B155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HatemKaroui.Sightline-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sightline-AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sightline-AI";
+			};
+			name = Debug;
+		};
+		B9689DC42E390B0A0005B155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HatemKaroui.Sightline-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sightline-AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sightline-AI";
+			};
+			name = Release;
+		};
+		B9689DC62E390B0A0005B155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HatemKaroui.Sightline-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sightline-AI";
+			};
+			name = Debug;
+		};
+		B9689DC72E390B0A0005B155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MWAD93W6ZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HatemKaroui.Sightline-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sightline-AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9689D982E390B090005B155 /* Build configuration list for PBXProject "Sightline-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9689DBD2E390B0A0005B155 /* Debug */,
+				B9689DBE2E390B0A0005B155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9689DBF2E390B0A0005B155 /* Build configuration list for PBXNativeTarget "Sightline-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9689DC02E390B0A0005B155 /* Debug */,
+				B9689DC12E390B0A0005B155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9689DC22E390B0A0005B155 /* Build configuration list for PBXNativeTarget "Sightline-AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9689DC32E390B0A0005B155 /* Debug */,
+				B9689DC42E390B0A0005B155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9689DC52E390B0A0005B155 /* Build configuration list for PBXNativeTarget "Sightline-AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9689DC62E390B0A0005B155 /* Debug */,
+				B9689DC72E390B0A0005B155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9689D952E390B090005B155 /* Project object */;
+}
