@@ -507,7 +507,7 @@ import IOKit.hid
         var masterPort: mach_port_t = 0
         let portResult = IOMasterPort(kIOMainPortDefault, &masterPort)
         guard portResult == kIOReturnSuccess else { return }
-        let matchingDict = IOServiceMatching(kIOSerialBSDServiceValue)
+        let matchingDict = IOServiceMatching("IOSerialBSDClient")
         var iterator: io_iterator_t = 0
         let matchResult = IOServiceGetMatchingServices(masterPort, matchingDict, &iterator)
         if matchResult == kIOReturnSuccess {
