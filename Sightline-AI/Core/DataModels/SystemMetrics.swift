@@ -21,6 +21,9 @@ import IOKit.hid
 /// Enhanced to finest level (100000000/10) with external device monitoring and 3uTools-level profiling
 @objc public class SystemMetrics: NSObject, ObservableObject {
     
+    // MARK: - Timer for updates
+    private var updateTimer: Timer?
+    
     // MARK: - CPU Metrics
     
     /// Real-time CPU utilization percentage with per-core breakdown
@@ -436,6 +439,12 @@ import IOKit.hid
         super.init()
         initializeSystemMetrics()
         initializeExternalDeviceMonitoring()
+        startRealTimeUpdates()
+    }
+    
+    deinit {
+        updateTimer?.invalidate()
+        updateTimer = nil
     }
     
     // MARK: - Private Methods
@@ -514,6 +523,35 @@ import IOKit.hid
         updateThermalMetrics()
         updateProcessMetrics()
         calculatePerformanceScores()
+    }
+    
+    private func startRealTimeUpdates() {
+        // Start timer for real-time updates every 1 second
+        print("Starting SystemMetrics real-time updates...")
+        updateTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
+            self?.updateAllMetrics()
+        }
+        
+        // Run on main run loop
+        if let timer = updateTimer {
+            RunLoop.main.add(timer, forMode: .common)
+        }
+    }
+    
+    private func updateAllMetrics() {
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            
+            print("Updating all metrics...")
+            self.updateCPUMetrics()
+            self.updateMemoryMetrics()
+            self.updatePowerMetrics()
+            self.updateThermalMetrics()
+            self.updateProcessMetrics()
+            self.updateNetworkMetrics()
+            self.updateStorageMetrics()
+            self.calculatePerformanceScores()
+        }
     }
     
     // MARK: - System Information Retrieval
@@ -1432,7 +1470,7 @@ import IOKit.hid
         if processSizeResult == 0 && size > 0 {
             let processResult = sysctlbyname("kern.proc.count", &processCount, &size, nil, 0)
             if processResult == 0 {
-                self.processCount = Int(processCount)
+                cpuProcessCount = Int(processCount)
             }
         }
         
@@ -1442,9 +1480,24 @@ import IOKit.hid
         if threadSizeResult == 0 && size > 0 {
             let threadResult = sysctlbyname("kern.thread.count", &threadCount, &size, nil, 0)
             if threadResult == 0 {
-                self.threadCount = Int(threadCount)
+                cpuThreadCount = Int(threadCount)
             }
         }
+    }
+    
+    private func updateNetworkMetrics() {
+        // Update network information
+        updateNetworkInformation()
+        
+        // Simulate network bandwidth for now (will be replaced with real metrics)
+        networkBandwidthIn = Double.random(in: 0...10) * 1_000_000  // Convert to bytes/s
+        networkBandwidthOut = Double.random(in: 0...5) * 1_000_000  // Convert to bytes/s
+        networkLatency = Double.random(in: 10...100)  // ms
+    }
+    
+    private func updateStorageMetrics() {
+        // Update storage information
+        updateStorageInformation()
     }
     
     private func calculateCPUUtilization() -> Double {
