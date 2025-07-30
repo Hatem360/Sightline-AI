@@ -352,6 +352,10 @@ import Darwin
             return serialDevice.deviceId
         } else if let hidDevice = device as? HIDDevice {
             return hidDevice.deviceId
+        } else if let networkDevice = device as? NetworkDevice {
+            return networkDevice.deviceId
+        } else if let bluetoothDevice = device as? BluetoothDevice {
+            return bluetoothDevice.deviceId
         }
         return UUID().uuidString
     }
@@ -365,6 +369,10 @@ import Darwin
             return serialDevice.product.isEmpty ? "Serial Device" : serialDevice.product
         } else if let hidDevice = device as? HIDDevice {
             return hidDevice.product.isEmpty ? "HID Device" : hidDevice.product
+        } else if let networkDevice = device as? NetworkDevice {
+            return networkDevice.name.isEmpty ? "Network Device" : networkDevice.name
+        } else if let bluetoothDevice = device as? BluetoothDevice {
+            return bluetoothDevice.name.isEmpty ? "Bluetooth Device" : bluetoothDevice.name
         }
         return "Unknown Device"
     }
@@ -387,6 +395,10 @@ import Darwin
             return .serial
         } else if device is HIDDevice {
             return .hid
+        } else if device is NetworkDevice {
+            return .network
+        } else if device is BluetoothDevice {
+            return .bluetooth
         }
         return .network
     }

@@ -237,7 +237,7 @@ struct AIResponse {
 
 // MARK: - AI Service Implementation
 @MainActor
-final class AIService: ObservableObject, AIServiceProtocol {
+public final class AIService: ObservableObject, AIServiceProtocol {
     
     // MARK: - Published Properties
     @Published private(set) var serviceStatus = AIServiceStatus(
@@ -268,7 +268,7 @@ final class AIService: ObservableObject, AIServiceProtocol {
     private let maxRequestsPerMinute = 60
     
     // MARK: - Initialization
-    init() {
+    public init() {
         let config = URLSessionConfiguration.default
         config.timeoutIntervalForRequest = maxResponseTime
         config.timeoutIntervalForResource = maxResponseTime * 2
